@@ -111,8 +111,8 @@ export const addUnionId = (id, unionIds) => {
 
 /**
  * Add union ids
- * @param {number, string} ids 
- * @param {array} unionIds 
+ * @param {number, string} ids
+ * @param {array} unionIds
  */
 export const addUnionIds = (ids, unionIds) => {
   return [...unionIds, ...ids];
